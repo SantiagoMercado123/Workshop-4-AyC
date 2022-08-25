@@ -14,9 +14,11 @@ package com.mycompany.ayc2;
  * Synopsis: Creates a file with n integers (the form they are selected depends on the case we are evaluating), then all those integers are transfered to an array.
  * The program reads each element in the array and stores the unique numbers in a different array. It also counts the amount of times each
  * unique number appears.
- * This process is done 300 times for each file with n integers in order to find the average runtime for the program given. 
- * Size of n is also altered for every 300 repetitions, in order to analyze how elapsed time and complexity (# of comparisons) vary.
+ * This process is done 300 times for each file with n integers in order to find the average runtime for the program given. The elapsed time and # of comparisons
+ * is calculated every time for the 300 repetitions and an average is made. 
+ * Size of n is also increased for every 300 repetitions, in order to analyze how elapsed time and complexity (# of comparisons) vary when n increases.
  * This is done with all n integers being 0 (best case), n random numbers(average case) and n different numbers (worst case).
+ * Lastly, the program creates a text file to store the 3 values with 3 columns: n size / # of comparisons / runtime.
  * 
  * Authors: Santiago Andrés Mercado Barandica y David Salgado Cortés
  * ID: 200155614 / 200144831
