@@ -11,14 +11,15 @@ package com.mycompany.ayc2;
  *
  * Workshop 4: Calculating Best/Average/Worst Case in the "Counting Unique Ints in a plain text file" Algorithm
  *
- * Synopsis: Creates a file with n random integers, then all those arrays are transfered to an array.
+ * Synopsis: Creates a file with n integers (the form they are selected depends on the case we are evaluating), then all those integers are transfered to an array.
  * The program reads each element in the array and stores the unique numbers in a different array. It also counts the amount of times each
- * unique number appears, and prints the information to the user.
- * This process is done at least 200 times for every file with n integers in order to find the average runtime for the program given.
- * It also forces the best case (all n integers are 0) to analize it and compare it to the average and worst case (n different numbers).
+ * unique number appears.
+ * This process is done 300 times for each file with n integers in order to find the average runtime for the program given. 
+ * Size of n is also altered for every 300 repetitions, in order to analyze how elapsed time and complexity (# of comparisons) vary.
+ * This is done with all n integers being 0 (best case), n random numbers(average case) and n different numbers (worst case).
  * 
- * Author: Santiago Andrés Mercado Barandica y David Salgado Cortés
- * ID: 200155614 / 
+ * Authors: Santiago Andrés Mercado Barandica y David Salgado Cortés
+ * ID: 200155614 / 200144831
 */
 
        
